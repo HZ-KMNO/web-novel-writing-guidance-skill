@@ -1,0 +1,4 @@
+interface:
+  display_name: "Web Novel Writing Mainbrain"
+  short_description: "Plan, draft, revise, de-AI polish, and manage long-form web novels with continuity and quality gates."
+  default_prompt: "Use $web-novel-writing-mainbrain to turn my idea and context into a chapter task card, Draft A, revision plan, and continuity handoff."

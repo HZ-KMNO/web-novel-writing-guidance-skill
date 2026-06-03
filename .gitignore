@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+node_modules/
+__pycache__/
+.pytest_cache/
+.venv/
+dist/
+build/
