@@ -1,10 +1,10 @@
 # 网文小说写作指导skill
 
-![Web Novel Writing Mainbrain logo](assets/logo.png)
+![Web Novel Writing Guidance Skill logo](assets/logo.png)
 
-A portable Chinese web-novel guidance skill for planning, drafting, revising, de-AI polishing, and managing long-form serialized fiction. Formerly presented as Web Novel Writing Mainbrain Skill; the package directory remains `web-novel-writing-mainbrain/` for compatibility.
+A portable Chinese web-novel guidance skill for planning, drafting, revising, de-AI polishing, and managing long-form serialized fiction.
 
-This skill is designed for AI agents that need to act as a long-term fiction-writing "mainbrain" rather than a one-shot text generator. It captures a complete workflow for idea intake, story-engine design, chapter blueprints, chapter task cards, Draft A/B/C production, user-feedback revision, quality supervision, continuity records, and final handoff.
+This skill is designed for AI agents that need to act as a long-term fiction-writing coordinator rather than a one-shot text generator. It captures a complete workflow for idea intake, story-engine design, chapter blueprints, chapter task cards, Draft A/B/C production, user-feedback revision, quality supervision, continuity records, and final handoff.
 
 
 ## Latest Enhancements
@@ -119,15 +119,15 @@ web-novel-writing-mainbrain/SKILL.md
 ## Example Prompts
 
 ```text
-Use $web-novel-writing-mainbrain. I will give you a premise and previous chapter summary. First create a chapter task card, then write Draft A.
+Use 网文小说写作指导skill. I will give you a premise and previous chapter summary. First create a chapter blueprint and key-information file, then write Draft A.
 ```
 
 ```text
-Use $web-novel-writing-mainbrain to revise this chapter according to my feedback. Classify my feedback first, preserve the parts I liked, then produce Draft B.
+Use 网文小说写作指导skill to revise this chapter according to my feedback. Classify my feedback first, preserve the parts I liked, then produce Draft B.
 ```
 
 ```text
-The content direction is approved. Use $web-novel-writing-mainbrain to perform Draft C de-AI polishing without changing canon, then write the continuity record.
+The content direction is approved. Use 网文小说写作指导skill to perform Draft C de-AI polishing without changing canon, then write the continuity record.
 ```
 
 ## Quality Philosophy
