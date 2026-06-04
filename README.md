@@ -1,11 +1,20 @@
-# Web Novel Writing Mainbrain Skill
+# 网文小说写作指导skill
 
 ![Web Novel Writing Mainbrain logo](assets/logo.png)
 
-A portable AI-agent skill for planning, drafting, revising, de-AI polishing, and managing long-form web novels or serialized genre fiction.
+A portable Chinese web-novel guidance skill for planning, drafting, revising, de-AI polishing, and managing long-form serialized fiction. Formerly presented as Web Novel Writing Mainbrain Skill; the package directory remains `web-novel-writing-mainbrain/` for compatibility.
 
 This skill is designed for AI agents that need to act as a long-term fiction-writing "mainbrain" rather than a one-shot text generator. It captures a complete workflow for idea intake, story-engine design, chapter task cards, Draft A/B/C production, user-feedback revision, quality supervision, continuity records, and final handoff.
 
+
+## Latest Enhancements
+
+- Chapter blueprints and key-information files before drafting.
+- Independent character goals, information boundaries, mistaken beliefs, speech limits, and life traces.
+- Revision gates for tool-like characters, impossible knowledge, weak scene causality, and odd details.
+- `excellent-novel-case-methods.md`, a method-only summary of 10 excellent novel cases.
+- `excellent-novel-case-inventory.json`, an extraction/statistics inventory for those epub case files.
+- Male-frequency suspense / puzzle / reasoning execution rules: real evidence, fair clues, information gaps, and credible institutions first.
 ## Why This Skill Exists
 
 AI can write fluent prose quickly, but long-form fiction needs more than fluency.
@@ -28,6 +37,7 @@ This skill provides that operating system.
 ```text
 User ideas / suggestions / context
 -> AI selects relevant skills and references
+-> chapter blueprint and key-information file
 -> chapter task card
 -> Draft A: complete initial draft
 -> user feedback
@@ -83,7 +93,10 @@ Draft C makes it human.
       ├─ quality-supervision.md
       ├─ de-ai-polishing.md
       ├─ continuity-records.md
-      └─ source-and-skill-orchestration.md
+      ├─ source-and-skill-orchestration.md
+      ├─ web-novel-craft.md
+      ├─ excellent-novel-case-methods.md
+      └─ excellent-novel-case-inventory.json
 ```
 
 The actual skill package is the `web-novel-writing-mainbrain/` folder.
