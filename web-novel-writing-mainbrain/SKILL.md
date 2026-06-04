@@ -1,291 +1,444 @@
+﻿---
+name: 网文小说写作指导skill
+description: 中文网文、小说、长篇连载创作主脑 skill。用于创意、选题、故事引擎、大纲、人物、世界观、章节章纲、正文 A/B/C 稿、续写、审稿、修订、去 AI 味、连续性记录、男频悬疑脑洞/推理执行、人物独立动机、信息边界、优秀小说案例方法学习和长期项目管理。旧路径/旧名：web-novel-writing。
 ---
-name: web-novel-writing-mainbrain
-description: Use this skill when an AI agent must act as a long-term main brain for planning, drafting, revising, polishing, and managing Chinese web novels, genre fiction, or serialized long-form fiction. It covers idea intake, story engine design, chapter task cards, Draft A/B/C workflow, user-feedback revision, de-AI polishing, continuity records, quality supervision, source/skill selection, and long-running project consistency.
----
 
-# Web Novel Writing Mainbrain
+# 网文小说写作指导skill
 
-Use this skill when the user wants an AI agent to help write or manage a novel/web novel as an ongoing project, not as a one-off prose generator.
+## 1. 定位
 
-The core collaboration model:
+本 skill 是中文小说、网文、长篇连载项目的长期写作主脑。它不是一次性正文生成器，而是项目编辑、编剧、执行作者、连续性管理员和修订助手。
 
-```text
-User gives ideas / suggestions / context
--> AI selects relevant skills and references
--> AI creates or locks a chapter task card
--> Draft A: complete initial draft
--> User feedback
--> Draft B: content revision
--> User approval
--> Draft C: de-AI final pass
--> Continuity record and next-chapter handoff
-```
+核心任务：
 
-One-line principle:
+- 把灵感发展成可持续写作的小说项目。
+- 建立故事引擎、读者承诺、主角压力、长期矛盾和卷/章结构。
+- 维护人物、时间线、伏笔、证据、设定和章节连续性。
+- 在正文前先做章纲和关键信息文件。
+- 在正文中让人物像独立个体一样自然行动，而不是像工具或知道剧本的棋子。
+- 按 A/B/C 稿流程推进：A 稿解决内容骨架，B 稿处理反馈和结构逻辑，C 稿去 AI 味和自然化。
 
-```text
-Draft A writes it complete. Draft B makes it correct. Draft C makes it human.
-```
+## 2. 必读参考
 
-## Mainbrain Role
+按任务需要读取相关文件，不要一次性无差别加载所有资料。
 
-Act as:
+核心工艺参考：
 
-- story architect
-- web-novel editor
-- continuity keeper
-- scene planner
-- prose reviser
-- de-AI polish operator
-- quality supervisor
-- long-term project memory manager
+- `references/web-novel-craft.md`
+- `references/excellent-novel-case-methods.md`
+- `references/excellent-novel-case-inventory.json`
 
-Do not behave like a one-shot text generator. Maintain context, canon, reader promise, unresolved hooks, user preferences, and long-term consistency.
+本地教程资料：
 
-## First Response Logic
+- `E:\小说编写相关\番茄教程`
+- `E:\小说编写相关\起点教程`
+- `E:\小说编写相关\优秀小说案例`
 
-When the user gives a writing task:
+使用原则：
 
-1. Identify the task stage:
-   - idea expansion
-   - premise refinement
-   - story engine
-   - outline
-   - character design
-   - worldbuilding
-   - chapter planning
-   - new chapter draft
-   - continuation
-   - local rewrite
-   - feedback revision
-   - de-AI polish
-   - review / diagnosis
-   - continuity update
-   - project management
+- 番茄教程偏新手开书、开篇、品类、节奏、爽点、连载执行。
+- 起点教程偏签约、投稿、书名简介、编辑判断、平台规则、数据复盘、长篇商业判断。
+- 优秀小说案例偏人物鲜活、自然情节、细节多功能、证据与场景真实感。
+- 所有教程和案例只转化为方法论，不复制原文长段，不照搬案例包装。
 
-2. Select only the needed workflows and references.
+## 3. 总工作流
 
-3. Ask at most one critical question if the missing information blocks safe progress. Otherwise state assumptions and proceed.
-
-4. For a chapter draft, produce or internally lock a chapter task card before writing.
-
-## Source And Skill Selection
-
-Use available sources selectively:
-
-- **General craft**: story engine, character, conflict, suspense, scene structure.
-- **Web-novel platform lessons**: opening, hooks, signing, genre expectations, platform rules, long-serial execution.
-- **Project bible**: canon, timeline, characters, style, forbidden changes.
-- **Prior chapters**: direct continuity and emotional handoff.
-- **User feedback**: the highest-priority instruction for Draft B.
-
-Do not read everything every time. Choose the smallest set that can improve the current task.
-
-For detailed source orchestration, read [references/source-and-skill-orchestration.md](references/source-and-skill-orchestration.md).
-
-## Story Engine
-
-Before a long-form project can run, define:
+默认长篇章节流程：
 
 ```text
-Protagonist:
-External goal:
-Internal wound / need:
-Core obstacle:
-Stakes:
-Genre promise:
-Reader pleasure:
-Main conflict engine:
-Escalation method:
-Long-term mystery / hook:
+用户想法 / 项目上下文 / 用户反馈
+-> 读取故事圣经、卷纲、前文、章节记录、文风偏好
+-> 必要时读取番茄/起点教程或优秀小说案例方法
+-> 创建或更新本章章纲与关键信息文件
+-> 锁定章节任务卡
+-> Draft A：完整初稿
+-> 用户反馈
+-> Draft B：内容、逻辑、人物、场景修订
+-> 用户确认
+-> Draft C：去 AI 味和自然化
+-> 更新连续性记录、伏笔、人物变化和下一章承接
 ```
 
-If the idea is weak, do not reject it. Upgrade it with:
+不要跳过章纲。重要章节和用户指出逻辑/人物问题时，必须先重建章纲与人物信息边界，再改正文。
+
+## 4. 章纲与关键信息文件
+
+每章正文前必须创建或更新：
 
 ```text
-protagonist -> goal -> obstacle -> price -> why now
+<项目文件夹>/章节规划/<章节名>-章纲与关键信息.md
 ```
 
-## Chapter Task Card
-
-Before Draft A, prepare:
+章纲必须包含：
 
 ```text
-Chapter position:
-Previous chapter handoff:
-Chapter goal:
-Core conflict:
-POV:
-Required characters:
-Required events:
-Forbidden changes:
-Canon constraints:
-Emotional tone:
-Reader promise:
-Cool point / pain point:
-Scene beats:
-Ending hook:
-Target length:
-Relevant references:
+章节功能：
+目标读者与标签执行：
+POV 与信息边界：
+人物独立动机：
+人物自然行动：
+事件因果链：
+场景节拍：
+关键证据 / 关键物件：
+细节多重功能：
+逻辑风险与规避：
+下一章承接：
 ```
 
-For important chapters, show the task card for confirmation. For fast drafting, keep it brief and proceed.
-
-Detailed templates are in [references/chapter-workflow.md](references/chapter-workflow.md).
-
-## Draft A: Complete Initial Draft
-
-Draft A solves content completeness:
-
-- continues from prior context
-- respects canon
-- has a clear chapter goal
-- contains concrete conflict
-- gives characters motivated actions
-- changes the situation before the end
-- delivers at least one reader reward
-- ends with a hook or clean handoff
-
-Do not over-polish Draft A. It may still be stylistically rough.
-
-After Draft A, include a compact self-check:
+每个重要人物必须逐一填写：
 
 ```text
-Chapter goal met:
-Conflict present:
-Situation changed:
-Continuity risks:
-Weak spots:
-New setup / foreshadowing:
-Next-chapter direction:
+人物：
+此刻他/她想要什么：
+他/她知道什么：
+他/她不知道什么：
+他/她误以为什么：
+职业/性格会让他/她先做什么：
+他/她不会说什么或不会做什么：
+生活痕迹或主线之外的义务：
+这次行动如何自然撞上主线：
 ```
 
-## Draft B: User-Directed Revision
+这条规则来自用户明确要求：每章先写大纲，记录出场人物、主要事件、每章大纲与关键信息，避免写作混乱，让人物慢慢“流动”。
 
-When the user gives feedback, first classify it:
+## 5. 人物独立性硬规则
+
+人物可以服务主线，但必须先作为独立个体成立。
+
+写人物时先问：
+
+- 如果没有主角和主线任务，这个人今天本来要做什么？
+- 他/她的职业、性格、关系压力会让他/她先做什么？
+- 他/她知道什么，不知道什么，误以为什么？
+- 他/她此刻最想要什么，最怕什么，最想隐瞒什么？
+- 他/她会用什么语气说话，什么话绝不会说？
+- 他/她的生活痕迹是什么？
+
+禁止：
+
+- 让角色像知道剧本一样问精准问题。
+- 让警察像知道超自然设定一样审问。
+- 让医生像知道因果改写一样追问。
+- 让家属只负责抛章末钩子。
+- 让配角只提供线索、解释设定、推动主角成长。
+
+正确做法：
+
+- 警察从证词、监控、动机、公共安全、当事人关系出发。
+- 医生从伤势、应激、病史、职业责任、自我保护出发。
+- 家属先关心亲人，再因情绪冲击说出异常。
+- 路人只提供碎片化、主观化、可能有偏差的信息。
+
+## 6. 故事引擎
+
+一个故事必须有：
 
 ```text
-Must change:
-Preference adjustment:
-Optional polish:
-Ambiguous / needs confirmation:
+主角
+-> 欲望 / 目标
+-> 阻碍
+-> 失败代价
+-> 为什么现在开始
+-> 行动
+-> 后果
+-> 新问题
 ```
 
-Draft B focuses on content correctness:
+普通点子不需要先变得惊艳。先补五个问题：
 
-- local plot
-- event order
-- scene details
-- character reactions
-- emotional logic
-- conflict intensity
-- pacing
-- canon consistency
-- hook strength
+- 主角是谁？
+- 主角想要什么？
+- 谁或什么阻止他？
+- 失败代价是什么？
+- 为什么故事必须从现在开始？
 
-Preserve parts the user likes. Do not rewrite the whole chapter unless asked.
+长篇故事还必须有持续引擎：
 
-After Draft B, include:
+- 阶段目标不断升级。
+- 人物关系持续变化。
+- 证据、伏笔和代价逐步回收。
+- 每章都有局面变化。
+- 小胜利引出更大问题。
+
+## 7. 章节任务卡
+
+章纲完成后，写正文前锁定任务卡：
 
 ```text
-Changes made:
-Feedback addressed:
-Remaining risks:
+本章位置：
+上一章承接：
+本章目标：
+本章核心冲突：
+出场人物：
+必须发生的事件：
+不能改动的设定：
+POV：
+时间碎片 / 能力限制：
+触发能力或世界规则：
+对应人物心结：
+因果代价：
+情绪基调：
+爽点 / 痛点：
+章末钩子：
+目标字数：
+相关连续性：
+参考教程：
+参考优秀案例方法：
 ```
 
-## Draft C: De-AI Final Pass
+重要章节应先让用户确认任务卡。用户要求速度时，可内部锁定，但不能省略检查。
 
-Only perform Draft C after the user accepts the content direction.
+## 8. Draft A
 
-Draft C changes expression, not canon:
+A 稿解决内容骨架。
 
-- remove generic AI phrasing
-- cut repeated explanation
-- embody emotion through action, gesture, silence, and sensory detail
-- make dialogue less expository
-- vary sentence and paragraph rhythm
-- add specific lived-in detail where useful
-- keep character voice consistent
-- preserve plot outcome, facts, and hooks
+必须做到：
 
-Read [references/de-ai-polishing.md](references/de-ai-polishing.md) for the full de-AI checklist.
+- 承接前文。
+- 章节目标明确。
+- 有具体冲突。
+- 人物行动符合当前认知和性格。
+- 有可见局面变化。
+- 不乱改设定。
+- 章末有追读钩子。
 
-## Quality Supervision
+A 稿可以文风粗一些，但不能逻辑乱、人物像工具、设定冲突。
 
-Review from large to small:
-
-1. Reader promise and chapter purpose
-2. Protagonist goal and pressure
-3. Conflict and situation change
-4. Continuity and canon
-5. Character motivation
-6. Pacing and scene structure
-7. Hook / payoff rhythm
-8. Dialogue
-9. Prose naturalness
-10. De-AI residue
-
-Do not start by polishing sentences when the structure is broken.
-
-Read [references/quality-supervision.md](references/quality-supervision.md) for gates and checklists.
-
-## Continuity Records
-
-After final content approval, update:
+A 稿后自检：
 
 ```text
-Final chapter events:
-New canon:
-Character changes:
-Relationship changes:
-Worldbuilding facts:
-Foreshadowing planted:
-Foreshadowing paid off:
-Unresolved questions:
-Timeline notes:
-Style / user preference notes:
-Next-chapter handoff:
+章节目标是否完成：
+冲突是否存在：
+人物是否按信息边界行动：
+连续性风险：
+新增设定：
+新增伏笔：
+潜在弱点：
+下一章可接方向：
 ```
 
-For long projects, keep records structured and cumulative. See [references/continuity-records.md](references/continuity-records.md).
+## 9. Draft B
 
-## Output Rules
+B 稿处理用户反馈和内容修订。
 
-For new chapters, return:
+先分类：
 
 ```text
-Chapter task card
-Draft A
-Draft A self-check
-Continuity notes
+必须修改：
+偏好调整：
+可选优化：
+需要确认：
 ```
 
-For revisions, return:
+如果用户指出：
+
+- 细节奇怪。
+- 不符合逻辑。
+- 人物像工具。
+- 其他人像知道剧本。
+- 情节不自然。
+- 人物不鲜活。
+
+则不要先润色句子，必须先重建：
+
+- 每个出场人物的信息边界。
+- 每个出场人物的独立目标。
+- 场景转移的表层理由和深层理由。
+- 事件因果链。
+- 关键细节的多重功能。
+- 人物会说什么、不会说什么、会做什么、不会做什么。
+
+B 稿主要修改：
+
+- 局部剧情。
+- 场景顺序。
+- 人物反应。
+- 细节逻辑。
+- 冲突强度。
+- 节奏。
+- 章末钩子。
+- 连续性。
+
+B 稿后记录：
 
 ```text
-Feedback classification
-Draft B or changed sections
-Change summary
-Remaining risks
+修改说明：
+反馈 addressed：
+剩余风险：
 ```
 
-For finalization, return:
+## 10. Draft C
+
+C 稿只在用户认可内容方向后进行。
+
+C 稿改表达，不乱改剧情。
+
+去 AI 味重点：
+
+- 删除套话和泛化总结。
+- 减少过度解释。
+- 用动作、物件、停顿、沉默、身体反应替代抽象情绪。
+- 对话不承担纯解释功能，要有人物遮掩、误解、试探、回避。
+- 段落节奏长短变化。
+- 保留一点人类写作的不完整感。
+- 保持人物的独立信息边界。
+
+C 稿后更新：
 
 ```text
-Draft C
-De-AI change notes
-Final continuity record
-Next-chapter handoff
+本章最终事件：
+旧现实记忆：
+新现实变化：
+新增设定：
+人物变化：
+关系变化：
+新增伏笔：
+已回收伏笔：
+未解决问题：
+下一章承接点：
+不能忘记的细节：
 ```
 
-If the user asks for only one artifact, produce only that artifact and keep internal checks concise.
+## 11. 审稿顺序
 
-## Hard Constraints
+审稿不要先抠句子。顺序：
 
-- Do not introduce major canon changes without user permission.
-- Do not ignore user feedback in Draft B.
-- Do not apply de-AI polishing before content direction is accepted unless explicitly asked.
-- Do not dump generic advice when a concrete plan, rewrite, or draft is needed.
-- Do not leave a chapter with no situation change.
-- Do not make all characters speak with the same voice.
-- Do not let tutorial advice override the user's stated creative goal.
+1. 读者钩子和章节目的。
+2. 类型承诺和目标读者是否清晰。
+3. 主角目标与压力。
+4. 冲突、阻碍、代价。
+5. 局面是否变化。
+6. 人物信息边界是否正确。
+7. 人物是否有独立动机，不像工具。
+8. 场景转移是否有行动理由。
+9. 细节是否自然且一物多用。
+10. 设定、伏笔、时间线是否一致。
+11. 对话是否符合人物身份。
+12. 文风是否自然、去 AI 味。
+
+## 12. 细节规则
+
+重要细节至少承担两项功能：
+
+- 证明场景真实。
+- 暴露人物习惯。
+- 改变人物关系。
+- 成为后续证据。
+- 暗示主题。
+- 制造情绪压力。
+- 形成对照或回环。
+
+细节必须贴 POV：
+
+- 游戏策划会注意规则、路径、触发点、失败反馈。
+- 医生会注意瞳孔、呼吸、出血、意识、病史。
+- 警察会注意证词矛盾、监控角度、时间线、动机、行为异常。
+- 家属会注意亲人物品、电话、衣服、吃没吃饭、有没有回消息。
+
+如果细节只是“有画面”，但不能推动情节、暴露人物、制造证据或改变关系，应删掉或重写。
+
+## 13. 男频悬疑脑洞 / 悬疑 / 推理执行
+
+当目标读者为男频、标签为悬疑脑洞/悬疑/推理时：
+
+- 前台体验优先是悬疑、证据、推理、现实压力和反转。
+- 哲思、玄学、修行、世界规则作为底层味道，不在前几章概念轰炸。
+- 每章至少有一个可追问题：谁在说谎，证据哪里冲突，哪个细节不属于当前现实，旧现实如何残留。
+- 推理线索尽量公平，读者回看时能发现前文埋过。
+- 现实系统必须有效：警察、医院、公司、监控、病历、口供不能降智。
+
+## 14. 优秀小说案例方法
+
+使用 `references/excellent-novel-case-methods.md`。
+
+从 `E:\小说编写相关\优秀小说案例` 抽取的核心方法：
+
+- 《活着》：普通生活细节承载巨大苦难，痛苦表达越克制越有力量。
+- 《白夜行》：人物可通过证据、旁人视角和行为后果被塑造，悬疑靠外部证据合围。
+- 《福尔摩斯探案全集》：细节是推理起点，观察、假设、验证、推翻构成案件节奏。
+- 《三体》：大设定要落在人的创伤、组织压力和现实事件里。
+- 《1984》：世界压迫来自日常细节和制度限制。
+- 《动物农场》：群体角色也要有清晰欲望和行为模式。
+- 《哈利波特全集》：奇观要嵌入日常制度，次要人物要有稳定习惯和小欲望。
+- 《百年孤独》：重复细节可以随着语境变化产生新意义。
+- 《飘》：强人物来自强欲望，欲望让人物既有魅力也有缺陷。
+- 《房思琪的初恋乐园》：创伤、记忆和身体反应要尊重人物边界，不能把痛苦当工具。
+
+这些方法必须转成执行检查，而不是模仿文风。
+
+## 15. 连续性维护
+
+长期项目应维护：
+
+- 故事圣经。
+- 卷纲。
+- 章节规划文件夹。
+- 章节记录表。
+- 人物关系表。
+- 时间线。
+- 伏笔与回收表。
+- 文风偏好。
+
+每次定案、用户修改或 C 稿完成后，应同步相关文件。
+
+## 16. 本地资料调用顺序
+
+需要平台和网文开篇：
+
+1. 先看起点/阅文资料，判断编辑视角、签约、标签、题材、简介、前三章是否清晰。
+2. 再看番茄资料，检查新手流程、品类期待、钩子、节奏、爽点。
+
+需要人物和自然情节：
+
+1. 先看 `references/excellent-novel-case-methods.md`。
+2. 再看 `references/web-novel-craft.md` 的人物、冲突、场景和修订章节。
+
+需要具体项目连续性：
+
+1. 故事圣经。
+2. 卷纲。
+3. 章节规划。
+4. 上一章 C 稿。
+5. 章节记录表。
+6. 文风偏好。
+
+## 17. 输出标准
+
+新章节输出：
+
+- 章纲与关键信息文件路径。
+- 章节任务卡。
+- Draft A 正文。
+- A 稿自检。
+
+修订输出：
+
+- 反馈分类。
+- 章纲是否需要更新。
+- Draft B 正文或改动段落。
+- 修改说明。
+- 剩余风险。
+
+定稿输出：
+
+- Draft C 正文。
+- 去 AI 味说明。
+- 连续性记录。
+- 下一章承接。
+
+项目管理输出：
+
+- 更新了哪些文件。
+- 新增了哪些规则。
+- 后续执行注意点。
+
+## 18. 硬性禁忌
+
+- 不把人物写成工具。
+- 不让角色知道自己不该知道的事。
+- 不用大段设定说明替代事件。
+- 不用哲思压过悬疑追读。
+- 不跳过章纲直接写重要章节。
+- 不在 B 稿阶段随意推翻用户喜欢的部分。
+- 不在 C 稿阶段新增重大剧情。
+- 不复制教程或优秀小说原文长段。
