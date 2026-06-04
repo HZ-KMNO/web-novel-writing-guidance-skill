@@ -1,11 +1,20 @@
-# 网文小说写作主大脑 Skill
+# 网文小说写作指导skill
 
 ![网文小说写作主大脑徽标](assets/logo.png)
 
-这是一个面向 AI agents 的通用小说/网文写作 skill，用于指导 AI 作为长期创作项目的“主大脑”工作，而不是一次性文本生成器。
+这是一个面向 AI agents 的中文小说/网文写作指导 skill，用于指导 AI 作为长期创作项目的“主大脑”工作，而不是一次性文本生成器。旧仓库目录仍保留 `web-novel-writing-mainbrain/`，但 skill 展示名已改为「网文小说写作指导skill」。
 
 它包含我们之前讨论过的核心流程：用户提供创意、建议和上下文，AI 选择相关资料与 skills，先生成章节任务卡，再写 A 稿；用户反馈后修改为 B 稿；用户满意后进行去 AI 味，生成 C 稿；最后更新连续性记录、伏笔、人物变化和下一章承接点。
 
+
+## 本次重点增强
+
+- 每章正文前必须先建立或更新章纲与关键信息文件；
+- 出场人物必须记录独立目标、信息边界、误解、职业/性格行动逻辑和生活痕迹；
+- 修订时优先解决人物像工具、角色仿佛知道剧本、细节不合逻辑、场景转移生硬等问题；
+- 新增 `excellent-novel-case-methods.md`，总结 10 部优秀小说案例中人物鲜活、情节自然、细节多功能的可执行方法；
+- 新增 `excellent-novel-case-inventory.json`，记录优秀案例 epub 的抽取统计清单；
+- 明确男频悬疑脑洞/悬疑/推理方向下，现实证据、信息差、推理公平性和机构逻辑必须优先成立。
 ## 一句话原则
 
 ```text
@@ -35,6 +44,7 @@ C 稿负责像人写。
 ```text
 用户提供创意 / 建议 / 上下文
 -> AI 选择相关 skills 和资料
+-> AI 先整理章节章纲与关键信息文件
 -> AI 整理章节任务卡
 -> A 稿：完整初稿
 -> 用户提供修改意见
@@ -216,7 +226,10 @@ AI 应按任务选择最少必要资料：
       ├─ quality-supervision.md
       ├─ de-ai-polishing.md
       ├─ continuity-records.md
-      └─ source-and-skill-orchestration.md
+      ├─ source-and-skill-orchestration.md
+      ├─ web-novel-craft.md
+      ├─ excellent-novel-case-methods.md
+      └─ excellent-novel-case-inventory.json
 ```
 
 ## 安装方式
