@@ -4,7 +4,7 @@
 
 A portable Chinese web-novel guidance skill for planning, drafting, revising, de-AI polishing, and managing long-form serialized fiction. Formerly presented as Web Novel Writing Mainbrain Skill; the package directory remains `web-novel-writing-mainbrain/` for compatibility.
 
-This skill is designed for AI agents that need to act as a long-term fiction-writing "mainbrain" rather than a one-shot text generator. It captures a complete workflow for idea intake, story-engine design, chapter task cards, Draft A/B/C production, user-feedback revision, quality supervision, continuity records, and final handoff.
+This skill is designed for AI agents that need to act as a long-term fiction-writing "mainbrain" rather than a one-shot text generator. It captures a complete workflow for idea intake, story-engine design, chapter blueprints, chapter task cards, Draft A/B/C production, user-feedback revision, quality supervision, continuity records, and final handoff.
 
 
 ## Latest Enhancements
@@ -15,6 +15,7 @@ This skill is designed for AI agents that need to act as a long-term fiction-wri
 - `excellent-novel-case-methods.md`, a method-only summary of 10 excellent novel cases.
 - `excellent-novel-case-inventory.json`, an extraction/statistics inventory for those epub case files.
 - Male-frequency suspense / puzzle / reasoning execution rules: real evidence, fair clues, information gaps, and credible institutions first.
+
 ## Why This Skill Exists
 
 AI can write fluent prose quickly, but long-form fiction needs more than fluency.
