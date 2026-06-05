@@ -15,6 +15,7 @@ This skill is designed for AI agents that need to act as a long-term fiction-wri
 - `excellent-novel-case-methods.md`, a method-only summary of 20 excellent novel cases.
 - `excellent-novel-case-inventory.json`, an extraction/statistics inventory for those epub case files.
 - `writer-oriented-literary-analysis-protocol.md`, a 13-part protocol for turning literary cases into practical fiction-writing methods. Every section answers: "What can this do for my own novel writing?"
+- `literary-deep-reading-workflow.md`, a status-based deep-reading archive workflow that separates inventory, first reading, structural reading, chapter-level analysis, craft conversion, and project application.
 - Male-frequency suspense / puzzle / reasoning execution rules: real evidence, fair clues, information gaps, and credible institutions first.
 
 ## Why This Skill Exists
@@ -88,7 +89,8 @@ Draft C makes it human.
 │  ├─ web-novel-craft.md
 │  ├─ excellent-novel-case-methods.md
 │  ├─ excellent-novel-case-inventory.json
-│  └─ writer-oriented-literary-analysis-protocol.md
+│  ├─ writer-oriented-literary-analysis-protocol.md
+│  └─ literary-deep-reading-workflow.md
 ├─ README.md
 ├─ README.zh-CN.md
 ├─ LICENSE

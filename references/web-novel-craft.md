@@ -466,6 +466,30 @@ This section incorporates the user's explicit requirement and the method summary
 
 When analyzing literary cases, use `writer-oriented-literary-analysis-protocol.md`. The analysis must be writer-facing, not exam-facing. Every section must answer: `这对我的小说创作有什么用？`
 
+When the user asks whether books have been fully read, asks for deep reading, or adds more books to the case library, also use `literary-deep-reading-workflow.md`. Do not collapse file inventory, statistical extraction, structural first reading, chapter-by-chapter reading, and craft conversion into the same word "read".
+
+Deep-reading status must be explicit:
+
+```text
+0 未处理
+1 已入库
+2 初读统计
+3 结构初读
+4 分章/分阶段深读
+5 技法转化
+6 已服务创作
+```
+
+For writing usefulness, a case is not complete until it has produced at least one of:
+
+- a character-pressure method
+- a causal-chain method
+- a key-scene pattern
+- a detail/prop reuse method
+- a viewpoint or information-boundary method
+- an exercise that can train the next chapter
+- a concrete transfer to the current novel project
+
 ### Chapter Blueprint Before Drafting
 
 Before writing an important chapter, create or update a chapter blueprint and key-information file:
@@ -564,5 +588,7 @@ Future case-library ingestion:
 
 - Read the new local case files without modifying the source books.
 - Update `excellent-novel-case-inventory.json`.
+- Mark reading status using `literary-deep-reading-workflow.md`.
 - Add writer-facing lessons to `excellent-novel-case-methods.md`.
+- If a work becomes a core sample, create or update a deep-reading dossier and record what still remains unread or unconverted.
 - Do not imitate plots, character shells, or signature sentences; extract mechanisms that can become chapter checks, scene patterns, or exercises.

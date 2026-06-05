@@ -15,6 +15,7 @@
 - 新增 `excellent-novel-case-methods.md`，总结 20 部优秀小说案例中人物鲜活、情节自然、细节多功能的可执行方法；
 - 新增 `excellent-novel-case-inventory.json`，记录优秀案例 epub 的抽取统计清单；
 - 新增 `writer-oriented-literary-analysis-protocol.md`，把用户给出的十三段文学案例分析模板固化为写作者导向流程，每一部分都必须回答“这对我的小说创作有什么用”；
+- 新增 `literary-deep-reading-workflow.md`，建立优秀小说案例深读档案工程，区分已入库、初读统计、结构初读、分章深读、技法转化和已服务创作；
 - 明确男频悬疑脑洞/悬疑/推理方向下，现实证据、信息差、推理公平性和机构逻辑必须优先成立。
 
 ## 一句话原则
@@ -224,6 +225,22 @@ AI 应按任务选择最少必要资料：
 
 若信息来自合集，应按“机制库”处理，不能把不同作者和作品混成同一种风格。
 
+## 优秀小说深读档案工程
+
+当用户要求“全部看完”“仔细学习”“深读”或继续添加优秀小说案例时，AI 不能笼统回答“已读完”。必须按深读状态说明：
+
+```text
+0 未处理
+1 已入库
+2 初读统计
+3 结构初读
+4 分章/分阶段深读
+5 技法转化
+6 已服务创作
+```
+
+深读成果必须能进入实际写作：章纲、人物信息边界、关键场景、细节复用、证据链、技法卡、练习题和对《无现在之人》的具体转化。
+
 ## 仓库结构
 
 ```text
@@ -235,7 +252,8 @@ AI 应按任务选择最少必要资料：
 │  ├─ web-novel-craft.md
 │  ├─ excellent-novel-case-methods.md
 │  ├─ excellent-novel-case-inventory.json
-│  └─ writer-oriented-literary-analysis-protocol.md
+│  ├─ writer-oriented-literary-analysis-protocol.md
+│  └─ literary-deep-reading-workflow.md
 ├─ README.md
 ├─ README.zh-CN.md
 ├─ LICENSE
