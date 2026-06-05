@@ -1,21 +1,31 @@
-# 网文小说写作指导skill
+# Web Novel Writing Guidance Skill
 
-![Web Novel Writing Guidance Skill logo](assets/logo.png)
+<p align="center">
+  <img src="assets/logo.png" alt="Web Novel Writing Guidance Skill Logo" width="200">
+</p>
 
-A portable Chinese web-novel guidance skill for planning, drafting, revising, de-AI polishing, and managing long-form serialized fiction.
+> A portable Chinese web-novel guidance skill for planning, drafting, revising, de-AI polishing, and managing long-form serialized fiction.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Skill Type](https://img.shields.io/badge/Type-AI%20Agent%20Skill-green.svg)](https://github.com/HZ-KMNO/web-novel-writing-guidance-skill)
+
+[English](README.md) | [简体中文](README.zh-CN.md)
+
+---
+
+## Overview
 
 This skill is designed for AI agents that need to act as a long-term fiction-writing coordinator rather than a one-shot text generator. It captures a complete workflow for idea intake, story-engine design, chapter blueprints, chapter task cards, Draft A/B/C production, user-feedback revision, quality supervision, continuity records, and final handoff.
 
-
 ## Latest Enhancements
 
-- Chapter blueprints and key-information files before drafting.
-- Independent character goals, information boundaries, mistaken beliefs, speech limits, and life traces.
-- Revision gates for tool-like characters, impossible knowledge, weak scene causality, and odd details.
-- `excellent-novel-case-methods.md`, a method-only summary of 20 excellent novel cases.
-- `excellent-novel-case-inventory.json`, an extraction/statistics inventory for those epub case files.
-- `writer-oriented-literary-analysis-protocol.md`, a 13-part protocol for turning literary cases into practical fiction-writing methods. Every section answers: "What can this do for my own novel writing?"
-- Male-frequency suspense / puzzle / reasoning execution rules: real evidence, fair clues, information gaps, and credible institutions first.
+- Chapter blueprints and key-information files before drafting
+- Independent character goals, information boundaries, mistaken beliefs, speech limits, and life traces
+- Revision gates for tool-like characters, impossible knowledge, weak scene causality, and odd details
+- Method-only summary of 20 excellent novel cases
+- Extraction and statistics inventory for epub case files
+- 13-part protocol for turning literary cases into practical fiction-writing methods
+- Male-frequency suspense, puzzle, and reasoning execution rules with real evidence, fair clues, information gaps, and credible institutions
 
 ## Why This Skill Exists
 
@@ -23,14 +33,14 @@ AI can write fluent prose quickly, but long-form fiction needs more than fluency
 
 A useful novel-writing agent must:
 
-- understand the user's creative intent;
-- organize scattered ideas into a working story engine;
-- preserve canon across chapters;
-- separate drafting, revision, and final polish;
-- accept user feedback without rewriting everything unnecessarily;
-- remove AI-like prose only after content is approved;
-- track foreshadowing, timeline, character changes, and unresolved hooks;
-- check quality from structure to prose, not the other way around.
+- Understand the user's creative intent
+- Organize scattered ideas into a working story engine
+- Preserve canon across chapters
+- Separate drafting, revision, and final polish
+- Accept user feedback without rewriting everything unnecessarily
+- Remove AI-like prose only after content is approved
+- Track foreshadowing, timeline, character changes, and unresolved hooks
+- Check quality from structure to prose, not the other way around
 
 This skill provides that operating system.
 
@@ -38,18 +48,18 @@ This skill provides that operating system.
 
 ```text
 User ideas / suggestions / context
--> AI selects relevant skills and references
--> chapter blueprint and key-information file
--> chapter task card
--> Draft A: complete initial draft
--> user feedback
--> Draft B: content revision
--> user approval
--> Draft C: de-AI final pass
--> continuity record and next-chapter handoff
+  → AI selects relevant skills and references
+  → Chapter blueprint and key-information file
+  → Chapter task card
+  → Draft A: Complete initial draft
+  → User feedback
+  → Draft B: Content revision
+  → User approval
+  → Draft C: De-AI final pass
+  → Continuity record and next-chapter handoff
 ```
 
-Core principle:
+**Core Principle:**
 
 ```text
 Draft A writes it complete.
@@ -74,26 +84,26 @@ Draft C makes it human.
 - Foreshadowing tracking
 - Timeline management
 - Quality gates
-- Tutorial/source orchestration
+- Tutorial and source orchestration
 - Long-running project handoff
 
 ## Repository Structure
 
 ```text
 .
-├─ SKILL.md
-├─ agents/
-│  └─ openai.yaml
-├─ references/
-│  ├─ web-novel-craft.md
-│  ├─ excellent-novel-case-methods.md
-│  ├─ excellent-novel-case-inventory.json
-│  └─ writer-oriented-literary-analysis-protocol.md
-├─ README.md
-├─ README.zh-CN.md
-├─ LICENSE
-└─ assets/
-   └─ logo.png
+├── SKILL.md
+├── agents/
+│   └── openai.yaml
+├── references/
+│   ├── web-novel-craft.md
+│   ├── excellent-novel-case-methods.md
+│   ├── excellent-novel-case-inventory.json
+│   └── writer-oriented-literary-analysis-protocol.md
+├── README.md
+├── README.zh-CN.md
+├── LICENSE
+└── assets/
+    └── logo.png
 ```
 
 The repository root is the actual skill package.
@@ -102,28 +112,30 @@ The repository root is the actual skill package.
 
 Copy the skill folder into your AI agent's skill directory:
 
-```text
-web-novel-writing-guidance-skill/
+```bash
+cp -r web-novel-writing-guidance-skill/ ~/.your-agent/skills/
 ```
 
-For OpenAI/Codex-style skills, the trigger metadata is in:
-
-```text
-web-novel-writing-guidance-skill/SKILL.md
-```
+For OpenAI or Codex-style skills, the trigger metadata is in `SKILL.md`.
 
 ## Example Prompts
 
-```text
-Use 网文小说写作指导skill. I will give you a premise and previous chapter summary. First create a chapter blueprint and key-information file, then write Draft A.
-```
+**Generate Draft A:**
 
 ```text
-Use 网文小说写作指导skill to revise this chapter according to my feedback. Classify my feedback first, preserve the parts I liked, then produce Draft B.
+Use web-novel-writing-guidance-skill. I will give you a premise and previous chapter summary. First create a chapter blueprint and key-information file, then write Draft A.
 ```
 
+**Revise to Draft B:**
+
 ```text
-The content direction is approved. Use 网文小说写作指导skill to perform Draft C de-AI polishing without changing canon, then write the continuity record.
+Use web-novel-writing-guidance-skill to revise this chapter according to my feedback. Classify my feedback first, preserve the parts I liked, then produce Draft B.
+```
+
+**Polish to Draft C:**
+
+```text
+The content direction is approved. Use web-novel-writing-guidance-skill to perform Draft C de-AI polishing without changing canon, then write the continuity record.
 ```
 
 ## Quality Philosophy
@@ -144,10 +156,6 @@ The skill reviews fiction from large to small:
 
 It explicitly avoids starting with sentence polish when the story structure is broken.
 
-## Chinese README
-
-中文版说明见 [README.zh-CN.md](README.zh-CN.md).
-
 ## License
 
-MIT License.
+MIT License. See [LICENSE](LICENSE) for details.
