@@ -12,8 +12,9 @@ This skill is designed for AI agents that need to act as a long-term fiction-wri
 - Chapter blueprints and key-information files before drafting.
 - Independent character goals, information boundaries, mistaken beliefs, speech limits, and life traces.
 - Revision gates for tool-like characters, impossible knowledge, weak scene causality, and odd details.
-- `excellent-novel-case-methods.md`, a method-only summary of 10 excellent novel cases.
+- `excellent-novel-case-methods.md`, a method-only summary of 20 excellent novel cases.
 - `excellent-novel-case-inventory.json`, an extraction/statistics inventory for those epub case files.
+- `writer-oriented-literary-analysis-protocol.md`, a 13-part protocol for turning literary cases into practical fiction-writing methods. Every section answers: "What can this do for my own novel writing?"
 - Male-frequency suspense / puzzle / reasoning execution rules: real evidence, fair clues, information gaps, and credible institutions first.
 
 ## Why This Skill Exists
@@ -80,40 +81,35 @@ Draft C makes it human.
 
 ```text
 .
+├─ SKILL.md
+├─ agents/
+│  └─ openai.yaml
+├─ references/
+│  ├─ web-novel-craft.md
+│  ├─ excellent-novel-case-methods.md
+│  ├─ excellent-novel-case-inventory.json
+│  └─ writer-oriented-literary-analysis-protocol.md
 ├─ README.md
 ├─ README.zh-CN.md
 ├─ LICENSE
-├─ assets/
-│  └─ logo.png
-└─ web-novel-writing-mainbrain/
-   ├─ SKILL.md
-   ├─ agents/
-   │  └─ openai.yaml
-   └─ references/
-      ├─ chapter-workflow.md
-      ├─ quality-supervision.md
-      ├─ de-ai-polishing.md
-      ├─ continuity-records.md
-      ├─ source-and-skill-orchestration.md
-      ├─ web-novel-craft.md
-      ├─ excellent-novel-case-methods.md
-      └─ excellent-novel-case-inventory.json
+└─ assets/
+   └─ logo.png
 ```
 
-The actual skill package is the `web-novel-writing-mainbrain/` folder.
+The repository root is the actual skill package.
 
 ## Installation
 
 Copy the skill folder into your AI agent's skill directory:
 
 ```text
-web-novel-writing-mainbrain/
+web-novel-writing-guidance-skill/
 ```
 
 For OpenAI/Codex-style skills, the trigger metadata is in:
 
 ```text
-web-novel-writing-mainbrain/SKILL.md
+web-novel-writing-guidance-skill/SKILL.md
 ```
 
 ## Example Prompts

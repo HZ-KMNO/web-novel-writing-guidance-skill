@@ -464,6 +464,8 @@ When Fanqie and Qidian tutorial libraries both apply:
 
 This section incorporates the user's explicit requirement and the method summary extracted from `E:\小说编写相关\优秀小说案例`.
 
+When analyzing literary cases, use `writer-oriented-literary-analysis-protocol.md`. The analysis must be writer-facing, not exam-facing. Every section must answer: `这对我的小说创作有什么用？`
+
 ### Chapter Blueprint Before Drafting
 
 Before writing an important chapter, create or update a chapter blueprint and key-information file:
@@ -547,3 +549,20 @@ Use `excellent-novel-case-methods.md` for the detailed case study. Practical con
 - From `百年孤独`: repeated details can change meaning across time and generations.
 - From `飘`: strong desire makes characters active, flawed, and readable.
 - From `房思琪的初恋乐园`: trauma and pain must respect character boundaries and should not be used as mere plot fuel.
+- From `卡拉马佐夫兄弟`: family scenes can become moral trials when every person speaks from desire, guilt, pride, belief, and self-defense.
+- From `明朝那些事儿`: complex background becomes readable when translated into concrete problems, interests, choices, reversals, and stakes.
+- From `呐喊`: short fiction can make a whole world visible through compressed scenes, ordinary speech, irony, and one memorable object or sentence.
+- From `撒哈拉的故事`: unfamiliar settings become alive through lived actions, transactions, mistakes, neighbors, food, paperwork, and the narrator's eye.
+- From `杀死一只知更鸟`: limited viewpoint can make readers experience moral growth instead of receiving moral explanation.
+- From `失踪的孩子`: long relationships should contain mixed emotions, dependency, rivalry, love, resentment, and self-justifying memory.
+- From `天龙八部`: multi-protagonist serials need independent desire lines that cross and change identity, alliance, and moral position.
+- From `小王子三部曲`: symbolic objects should carry loneliness, distance, affection, and choice instead of becoming decorative metaphors.
+- From `新海诚套装`: time, memory, body-swap, weather, and city imagery work only when tied to concrete emotional loss and pursuit.
+- From the `32部欧美文学不朽名作` collection: use anthologies as mechanism libraries: trial, revenge, misunderstanding, downfall, redemption, pursuit, social pressure, and disillusionment.
+
+Future case-library ingestion:
+
+- Read the new local case files without modifying the source books.
+- Update `excellent-novel-case-inventory.json`.
+- Add writer-facing lessons to `excellent-novel-case-methods.md`.
+- Do not imitate plots, character shells, or signature sentences; extract mechanisms that can become chapter checks, scene patterns, or exercises.

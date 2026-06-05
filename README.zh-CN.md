@@ -12,8 +12,9 @@
 - 每章正文前必须先建立或更新章纲与关键信息文件；
 - 出场人物必须记录独立目标、信息边界、误解、职业/性格行动逻辑和生活痕迹；
 - 修订时优先解决人物像工具、角色仿佛知道剧本、细节不合逻辑、场景转移生硬等问题；
-- 新增 `excellent-novel-case-methods.md`，总结 10 部优秀小说案例中人物鲜活、情节自然、细节多功能的可执行方法；
+- 新增 `excellent-novel-case-methods.md`，总结 20 部优秀小说案例中人物鲜活、情节自然、细节多功能的可执行方法；
 - 新增 `excellent-novel-case-inventory.json`，记录优秀案例 epub 的抽取统计清单；
+- 新增 `writer-oriented-literary-analysis-protocol.md`，把用户给出的十三段文学案例分析模板固化为写作者导向流程，每一部分都必须回答“这对我的小说创作有什么用”；
 - 明确男频悬疑脑洞/悬疑/推理方向下，现实证据、信息差、推理公平性和机构逻辑必须优先成立。
 
 ## 一句话原则
@@ -209,28 +210,37 @@ AI 应按任务选择最少必要资料：
 
 用户明确要求永远优先于通用教程建议。
 
+## 优秀小说案例分析原则
+
+新增书籍进入 `E:\小说编写相关\优秀小说案例` 后，AI 只能读取和分析原始书籍文件，不能修改书籍源文件。
+
+分析目标不是写考试式赏析，而是把作品拆成“我写小说时能立刻用的经验”。每部作品或作品群至少要回答：
+
+- 它给读者造成了什么体验；
+- 它如何通过结构、人物压力、信息差、关键场景和细节产生这种体验；
+- 这些方法怎样转化为《无现在之人》或下一篇小说的可执行写法；
+- 哪些机制可以学习，哪些外壳不能照搬；
+- 能设计什么练习来训练下一章需要的能力。
+
+若信息来自合集，应按“机制库”处理，不能把不同作者和作品混成同一种风格。
+
 ## 仓库结构
 
 ```text
 .
+├─ SKILL.md
+├─ agents/
+│  └─ openai.yaml
+├─ references/
+│  ├─ web-novel-craft.md
+│  ├─ excellent-novel-case-methods.md
+│  ├─ excellent-novel-case-inventory.json
+│  └─ writer-oriented-literary-analysis-protocol.md
 ├─ README.md
 ├─ README.zh-CN.md
 ├─ LICENSE
-├─ assets/
-│  └─ logo.png
-└─ web-novel-writing-mainbrain/
-   ├─ SKILL.md
-   ├─ agents/
-   │  └─ openai.yaml
-   └─ references/
-      ├─ chapter-workflow.md
-      ├─ quality-supervision.md
-      ├─ de-ai-polishing.md
-      ├─ continuity-records.md
-      ├─ source-and-skill-orchestration.md
-      ├─ web-novel-craft.md
-      ├─ excellent-novel-case-methods.md
-      └─ excellent-novel-case-inventory.json
+└─ assets/
+   └─ logo.png
 ```
 
 ## 安装方式
@@ -238,13 +248,13 @@ AI 应按任务选择最少必要资料：
 把这个 skill 文件夹复制到 AI agent 的 skills 目录：
 
 ```text
-web-novel-writing-mainbrain/
+web-novel-writing-guidance-skill/
 ```
 
 核心文件：
 
 ```text
-web-novel-writing-mainbrain/SKILL.md
+web-novel-writing-guidance-skill/SKILL.md
 ```
 
 ## 示例提示词

@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "网文小说写作指导skill"
+  short_description: "按章纲、人物独立性、连续性、A/B/C稿流程和优秀小说案例方法规划、创作、续写、审改中文网文小说。"
+  default_prompt: "Use 网文小说写作指导skill to turn my idea or literary case material into a Chinese web novel outline, chapter blueprint, Draft A/B/C workflow, writer-facing craft lessons, and continuity handoff."
