@@ -591,4 +591,6 @@ Future case-library ingestion:
 - Mark reading status using `literary-deep-reading-workflow.md`.
 - Add writer-facing lessons to `excellent-novel-case-methods.md`.
 - If a work becomes a core sample, create or update a deep-reading dossier and record what still remains unread or unconverted.
+- If the user imports about 10 books per day, process them as a dated batch: inventory all, extract methods from all, select 1-3 most relevant books for deeper structural reading, then state how the batch changes or confirms the current novel direction.
+- Before any five-chapter writing batch, convert the latest case-library lessons into a direction note, five-chapter mini-outline, chapter task cards, and continuity constraints.
 - Do not imitate plots, character shells, or signature sentences; extract mechanisms that can become chapter checks, scene patterns, or exercises.
