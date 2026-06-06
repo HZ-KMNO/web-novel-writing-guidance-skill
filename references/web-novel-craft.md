@@ -583,6 +583,27 @@ Use `excellent-novel-case-methods.md` for the detailed case study. Practical con
 - From `小王子三部曲`: symbolic objects should carry loneliness, distance, affection, and choice instead of becoming decorative metaphors.
 - From `新海诚套装`: time, memory, body-swap, weather, and city imagery work only when tied to concrete emotional loss and pursuit.
 - From the `32部欧美文学不朽名作` collection: use anthologies as mechanism libraries: trial, revenge, misunderstanding, downfall, redemption, pursuit, social pressure, and disillusionment.
+- From `阿加莎·克里斯蒂侦探小说大全集`: suspense chapters need fair clues, contradictory testimony, misleading ordinary details, and truth that can be reconstructed after the reveal.
+- From `许三观卖血记`: repeated actions should change meaning as pressure rises; ordinary people can be petty, ashamed, loving, and responsible at the same time.
+- From `局外人`: a calm protagonist becomes dramatic when society misreads that calm and the misreading creates consequences.
+- From `白鹿原`: social structure should enter scenes through reputation, rules, property, kinship, rumor, and everyday pressure.
+- From `乡土中国`: acquaintance society helps design partial testimony, face-saving silence, favors, avoidance, and practical compromise.
+- From `彷徨`: characters may know something is wrong and still be trapped by old relationships, social language, and identity position.
+- From `野草`: philosophical unease can be compressed into images, but serial chapters still need event movement and hooks.
+- From `我与地坛`: a repeated place can accumulate spiritual change when each return lets the protagonist notice something different.
+- From `悉达多`: cultivation arcs should move through cognitive stages, with each stage gaining and losing something.
+- From `钱穆国学作品集`: rules and institutions become useful for fiction only when converted into responsibility, benefit, cost, procedure, and consequence.
+
+### 2026-06-06 Reading-Day Execution Checks
+
+Before drafting or revising `无现在之人`, apply this batch as concrete checks:
+
+- Convert the protagonist's abnormal memory into testable evidence: surveillance, timestamps, testimony, medicine, injury traces, tickets, routes, forms, and signatures.
+- Give every institution a procedure and every procedure a person who bears risk.
+- Let doctors, police, family members, neighbors, and coworkers misread Lin Zhao according to their own information boundary.
+- Reuse one action or object across chapters, but change its meaning each time.
+- Place philosophical reflection inside repeated locations such as the subway station, hospital corridor, police office, rental room, or old neighborhood gate.
+- Do not let calm narration become cool posing; calm must create suspicion, distance, or practical trouble.
 
 Future case-library ingestion:
 
