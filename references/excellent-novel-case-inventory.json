@@ -1618,10 +1618,11 @@
       "第二十章"
     ],
     "batch_id": "2026-06-07-excellent-case-batch",
-    "reading_status": 2,
-    "reading_status_label": "ingested; initial statistics complete; awaiting structural reading or technique conversion",
+    "reading_status": 5,
+    "reading_status_label": "ingested; initial statistics complete; writing technique conversion complete for this batch",
     "metadata_title": "平凡的世界",
-    "metadata_creator": "路遙"
+    "metadata_creator": "路遙",
+    "priority_reason": "supports ordinary-person pressure, resource scarcity, family responsibility, and long-serial growth mechanics"
   },
   {
     "file_name": "围城 (出版七十周年纪念版) (钱锺书) (z-library.sk, 1lib.sk, z-lib.sk).epub",
@@ -1660,10 +1661,9 @@
       "封底"
     ],
     "batch_id": "2026-06-07-excellent-case-batch",
-    "reading_status": 5,
-    "reading_status_label": "ingested; initial statistics complete; writing technique conversion complete for this batch",
+    "reading_status": 2,
+    "reading_status_label": "ingested; initial statistics complete; awaiting structural reading or technique conversion",
     "metadata_title": "围城（爱熄灭了灯，心围一座城。出版七十周年纪念版）",
-    "metadata_creator": "钱钟书",
-    "priority_reason": "supports ensemble information boundaries, subtext dialogue, long-game revenge and foreshadowing for The Person Without a Present"
+    "metadata_creator": "钱钟书"
   }
 ]
