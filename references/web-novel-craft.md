@@ -590,6 +590,8 @@ Future case-library ingestion:
 - Update `excellent-novel-case-inventory.json`.
 - Mark reading status using `literary-deep-reading-workflow.md`.
 - Add writer-facing lessons to `excellent-novel-case-methods.md`.
+- For each imported book, classify the learning mode: modern Chinese expression, mechanism only, translated structure only, or classical/chapter-structured mechanism only.
+- For each daily batch, create or update a batch reference when the analysis is longer than a short method note; for example, `excellent-novel-case-batch-2026-06-07.md`.
 - If a work becomes a core sample, create or update a deep-reading dossier and record what still remains unread or unconverted.
 - If the user imports about 10 books per day, process them as a dated batch: inventory all, extract methods from all, select 1-3 most relevant books for deeper structural reading, then state how the batch changes or confirms the current novel direction.
 - Before any five-chapter writing batch, convert the latest case-library lessons into a direction note, five-chapter mini-outline, chapter task cards, and continuity constraints.
