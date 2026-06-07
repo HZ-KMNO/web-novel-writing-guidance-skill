@@ -171,6 +171,8 @@ Quality gate:
 - has conflict and situation change
 - keeps canon intact
 - ends with a hook or handoff
+- uses natural modern Simplified Chinese
+- avoids cryptic over-short sentences, orphan words, pseudo-classical phrasing, and translationese
 
 ### Draft B
 
@@ -182,6 +184,8 @@ Quality gate:
 - approved parts are preserved
 - local plot, details, reactions, and conflict are improved
 - no new contradictions are introduced
+- language risks from Draft A are explicitly fixed rather than carried forward
+- unnatural wording is traced as Draft A original, Draft B introduced, Draft C introduced, or multi-draft residue
 
 ### Draft C
 
@@ -194,6 +198,8 @@ Quality gate:
 - emotions are embodied in action and detail
 - dialogue sounds character-driven
 - paragraph rhythm feels less mechanical
+- prose remains clear, fluent, and readable as modern web-novel Chinese
+- de-AI polishing must not create cryptic fragments, pseudo-classical tone, or imitation of translated fiction
 
 ## 8. De-AI Polishing
 
@@ -207,6 +213,10 @@ Common AI flavor:
 - dialogue that exists to explain plot
 - everyone speaks too clearly
 - polished but bloodless descriptions
+- pseudo-literary short fragments that are hard to understand
+- orphan one-word or one-character paragraphs
+- sentences that feel translated into Chinese rather than written in Chinese
+- copying the sentence texture of classic cases instead of extracting mechanisms
 
 Fixes:
 
@@ -217,8 +227,23 @@ Fixes:
 - vary sentence and paragraph length
 - end scenes on concrete change instead of moral summary
 - keep a little roughness when it fits the character
+- expand unclear short sentences until subject, action, object, and context are readable
+- merge or rewrite orphan fragments such as isolated names, single words, or unexplained labels
+- keep case-study influence at the level of structure, scene design, pressure, evidence, and detail function, not wording
 
 Draft C should not introduce major new plot events unless the user requests it.
+
+### Modern Chinese Readability Gate
+
+For Chinese web-novel prose, clarity comes before style.
+
+- Do not write cryptic fragments such as a two-character phrase that requires the reader to guess the omitted subject.
+- Do not isolate single words or single characters as paragraphs unless they are clearly a sign, message, document heading, or diegetic text.
+- Do not use classical, chapter-novel, early vernacular, or translated-fiction sentence patterns as the book's default voice.
+- Short sentences are allowed only when the surrounding context makes them immediately clear.
+- Literary restraint means saying enough with concrete action, not making the sentence hard to parse.
+- When a sentence sounds like it was translated from another language, rewrite it in natural Simplified Chinese with normal word order.
+- If a language problem appears in Draft A, the Draft A gate failed; if it survives Draft B, the risk-resolution gate failed; if Draft C creates it, the de-AI gate failed.
 
 ## 9. Continuity Records
 
@@ -284,6 +309,9 @@ Prose checklist:
 - important emotion is dramatized
 - worldbuilding is attached to action
 - repeated explanation is cut
+- every short sentence is understandable without guessing omitted context
+- no orphan one-word, one-character, or label-only paragraphs remain
+- no pseudo-classical, early vernacular, or translationese wording breaks the book's voice
 
 AI draft checklist:
 
@@ -583,6 +611,37 @@ Use `excellent-novel-case-methods.md` for the detailed case study. Practical con
 - From `小王子三部曲`: symbolic objects should carry loneliness, distance, affection, and choice instead of becoming decorative metaphors.
 - From `新海诚套装`: time, memory, body-swap, weather, and city imagery work only when tied to concrete emotional loss and pursuit.
 - From the `32部欧美文学不朽名作` collection: use anthologies as mechanism libraries: trial, revenge, misunderstanding, downfall, redemption, pursuit, social pressure, and disillusionment.
+- From `阿加莎·克里斯蒂侦探小说大全集`: suspense chapters need fair clues, contradictory testimony, misleading ordinary details, and truth that can be reconstructed after the reveal.
+- From `许三观卖血记`: repeated actions should change meaning as pressure rises; ordinary people can be petty, ashamed, loving, and responsible at the same time.
+- From `局外人`: a calm protagonist becomes dramatic when society misreads that calm and the misreading creates consequences.
+- From `白鹿原`: social structure should enter scenes through reputation, rules, property, kinship, rumor, and everyday pressure.
+- From `乡土中国`: acquaintance society helps design partial testimony, face-saving silence, favors, avoidance, and practical compromise.
+- From `彷徨`: characters may know something is wrong and still be trapped by old relationships, social language, and identity position.
+- From `野草`: philosophical unease can be compressed into images, but serial chapters still need event movement and hooks.
+- From `我与地坛`: a repeated place can accumulate spiritual change when each return lets the protagonist notice something different.
+- From `悉达多`: cultivation arcs should move through cognitive stages, with each stage gaining and losing something.
+- From `钱穆国学作品集`: rules and institutions become useful for fiction only when converted into responsibility, benefit, cost, procedure, and consequence.
+- From `围城`: learn subtext, social embarrassment, self-deception, and conversational irony, but do not imitate dense aphoristic phrasing or old intellectual tone.
+- From `红楼梦`: learn ensemble information boundaries, object foreshadowing, relationship webs, and detail recurrence, but do not imitate classical diction.
+- From `基督山伯爵`: learn long-game planning, hidden identity, information advantage, and the cost of revenge, but do not import melodramatic revenge packaging.
+- From `四世同堂`: learn urban-family pressure under public crisis, but do not imitate era-specific regional speech as the default voice.
+- From `三国演义`: learn multi-faction strategy, intelligence gaps, and scene-level turns, but do not imitate chapter-novel or semi-classical syntax.
+- From `万历十五年`: learn institutional deadlock and responsibility gaps, but convert them into scene conflict instead of essay explanation.
+- From `平凡的世界`: learn ordinary people's long-term dignity and pressure, but keep suspense chapters moving.
+- From `城南旧事`: learn limited viewpoint and lived-in detail, but do not turn suspense into nostalgic prose.
+- From `江城`: learn how location, institution, and routine make a place alive, while avoiding translated-observer stiffness.
+- From `霍乱时期的爱情`: learn how desire changes across long time, while avoiding excessive lyric density.
+
+### 2026-06-06 Reading-Day Execution Checks
+
+Before drafting or revising `无现在之人`, apply this batch as concrete checks:
+
+- Convert the protagonist's abnormal memory into testable evidence: surveillance, timestamps, testimony, medicine, injury traces, tickets, routes, forms, and signatures.
+- Give every institution a procedure and every procedure a person who bears risk.
+- Let doctors, police, family members, neighbors, and coworkers misread Lin Zhao according to their own information boundary.
+- Reuse one action or object across chapters, but change its meaning each time.
+- Place philosophical reflection inside repeated locations such as the subway station, hospital corridor, police office, rental room, or old neighborhood gate.
+- Do not let calm narration become cool posing; calm must create suspicion, distance, or practical trouble.
 
 Future case-library ingestion:
 
