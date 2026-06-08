@@ -631,6 +631,16 @@ Use `excellent-novel-case-methods.md` for the detailed case study. Practical con
 - From `城南旧事`: learn limited viewpoint and lived-in detail, but do not turn suspense into nostalgic prose.
 - From `江城`: learn how location, institution, and routine make a place alive, while avoiding translated-observer stiffness.
 - From `霍乱时期的爱情`: learn how desire changes across long time, while avoiding excessive lyric density.
+- From `冰与火之歌`: learn multi-POV faction pressure, partial information, family/house behavior patterns, and small choices that reshape the map; do not imitate houses, signature shocks, or translationese.
+- From `托尔金中洲三部曲`: learn mythic world depth, maps with memory, old wars, names, roads, and quest gravity; do not front-load encyclopedia lore.
+- From `安徒生童话`: learn symbolic compression through one object, wish, rule, transformation, or price; do not turn symbols into moral lectures.
+- From `台北人`: learn exile memory, old identity in new rooms, short-story ensemble residue, and restrained loss; do not imitate era-specific cadence.
+- From `霸王别姬`: learn performance identity, role-as-protection, role-as-prison, and stage/reality mirroring; do not copy opera packaging or iconic character shells.
+- From `银河帝国`: learn civilizational crisis nodes, system assumptions, institutional tools, and prediction limits; do not let macro ideas replace character choices.
+- From `半生缘`: learn how missed love is made by family, shame, timing, reputation, money, and silence; do not rely on thin misunderstanding.
+- From `正红旗下`: learn how fading social order appears through food, etiquette, naming, domestic routines, and small obligations; do not imitate old-period voice.
+- From `骆驼祥子`: learn concrete ordinary-person goals, urban cost pressure, repeated loss, and personality erosion; do not make suffering decorative.
+- From `大明王朝1566`: learn responsibility chains, procedural conflict, institution-level power chess, and dialogue as action; do not imitate historical court diction.
 
 ### 2026-06-06 Reading-Day Execution Checks
 
@@ -643,6 +653,23 @@ Before drafting or revising `无现在之人`, apply this batch as concrete chec
 - Place philosophical reflection inside repeated locations such as the subway station, hospital corridor, police office, rental room, or old neighborhood gate.
 - Do not let calm narration become cool posing; calm must create suspicion, distance, or practical trouble.
 
+### 2026-06-08 Case Batch Execution Checks
+
+Use `excellent-novel-case-batch-2026-06-08.md` when planning multi-faction, game-world, ordinary-person, institutional, identity-performance, or long-romance material.
+
+Before drafting:
+
+- For multi-POV chapters, write what each viewpoint wants, knows, misreads, fears, and changes on the larger map.
+- For factions, define resources, public claim, private fear, first reaction under pressure, and likely mistake.
+- For game-world architecture, make lore change current action through roads, old wars, rules, objects, institutions, and local taboos.
+- For ordinary-person arcs, give the protagonist a concrete goal that can be lost: tool, room, account, certificate, vehicle, job, ranking, or access.
+- For decline or blackening arcs, record how each loss changes a habit, belief, relationship, or self-explanation.
+- For institutional scenes, mark which line of dialogue changes responsibility, permission, reputation, timing, or public position.
+- For relationship regret, ensure the obstacle is not only misunderstanding; add family, money, time, shame, work, body, and reputation pressure.
+- For identity-performance scenes, make the role or mask provide both power and cost.
+- For symbolic side stories, use one object/wish/rule/price instead of direct moral explanation.
+- Preserve modern Simplified Chinese readability; translation, old-period, court, or regional voices are mechanism sources, not default prose models.
+
 Future case-library ingestion:
 
 - Read the new local case files without modifying the source books.
@@ -650,7 +677,7 @@ Future case-library ingestion:
 - Mark reading status using `literary-deep-reading-workflow.md`.
 - Add writer-facing lessons to `excellent-novel-case-methods.md`.
 - For each imported book, classify the learning mode: modern Chinese expression, mechanism only, translated structure only, or classical/chapter-structured mechanism only.
-- For each daily batch, create or update a batch reference when the analysis is longer than a short method note; for example, `excellent-novel-case-batch-2026-06-07.md`.
+- For each daily batch, create or update a batch reference when the analysis is longer than a short method note; for example, `excellent-novel-case-batch-2026-06-07.md` or `excellent-novel-case-batch-2026-06-08.md`.
 - If a work becomes a core sample, create or update a deep-reading dossier and record what still remains unread or unconverted.
 - If the user imports about 10 books per day, process them as a dated batch: inventory all, extract methods from all, select 1-3 most relevant books for deeper structural reading, then state how the batch changes or confirms the current novel direction.
 - Before any five-chapter writing batch, convert the latest case-library lessons into a direction note, five-chapter mini-outline, chapter task cards, and continuity constraints.
