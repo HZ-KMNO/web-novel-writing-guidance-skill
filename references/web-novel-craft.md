@@ -655,3 +655,30 @@ Future case-library ingestion:
 - If the user imports about 10 books per day, process them as a dated batch: inventory all, extract methods from all, select 1-3 most relevant books for deeper structural reading, then state how the batch changes or confirms the current novel direction.
 - Before any five-chapter writing batch, convert the latest case-library lessons into a direction note, five-chapter mini-outline, chapter task cards, and continuity constraints.
 - Do not imitate plots, character shells, or signature sentences; extract mechanisms that can become chapter checks, scene patterns, or exercises.
+
+## Bilibili Author Tutorial Batch Use
+
+Use `references/bilibili-author-tutorial-batch-2026-06-08.md` when the user imports tutorial transcripts from B站 or other video-to-text sources.
+
+Practical conclusions:
+
+- Openings should work as commercial screens: title, synopsis, hook, protagonist, crisis, advantage, and reader question must be visible fast.
+- A system or golden finger must have a clear reward loop, not just a clever premise.
+- Long arcs should start from the climax and work backward into nested goals and burst points.
+- Fan fiction should not clone the original path; it should choose a fresh cut-in point and build an independent story.
+- Daily scenes need contrast, reversal, or hidden intent; otherwise they read as water.
+- If plot is weak, use story boxes and small-goal decomposition before drafting.
+
+What this means for my fiction:
+
+- For opening chapters, I should think in terms of the first 6000 words, not vague first impressions.
+- For commercial genre stories, I should make the hook, escalation, and payoff legible in the outline.
+- For daily-life or light-comedy scenes, I should force mismatch, subtext, or expectation reversal.
+- For weak ideas, I should break the premise into executable story tasks before writing prose.
+
+Risk controls:
+
+- Do not copy the transcript voice, slang, or coarse examples.
+- Do not apply platform advice mechanically to every platform.
+- Do not confuse high-energy examples with durable craft.
+- Do not let the opening become only a pitch; it still must read like a story.
