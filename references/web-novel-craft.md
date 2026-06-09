@@ -832,3 +832,23 @@ What this means for my fiction:
 - Before drafting, I should know whether I am solving a craft problem, a market-fit problem, or a completion-discipline problem.
 - When prose feels weak, I should choose a target skill and read examples for that target instead of asking for generic beautification.
 - When a story feels unsatisfying, check whether the pressure was strong enough to make the payoff matter.
+
+## 17. QidianClub Author Advice Batch
+
+Read `references/qidianclub-author-advice-2026-06-09.md` when the user asks to learn from top or experienced web-novel authors through 起点社区、名家经验谈、白金作家访谈、龙空精华帖整理 or other author-advice index pages.
+
+Compressed use:
+
+- Turn author self-excitement into reader-facing pressure, novelty, stakes, and payoff.
+- Read current successful web novels for opening promise, hooks, pacing, reader tolerance, and market fit; read classics for expression, compression, dialogue, and story-box variety.
+- Treat outlines, ending awareness, chapter hooks, and伏笔登记 as change-control tools for long-form fiction.
+- Give every important character independent desire, fear, pressure, relationship position, and action logic.
+- Design 爽点 as compensation after deprivation, humiliation, danger, cost, or delayed recognition.
+- Convert material, professional knowledge, jokes, news, and life experience into scene conflict, choice, limitation, method, or sensory reality.
+- Treat signing,上架, completion, feedback digestion, and repeated revision as part of the writer's core skill.
+
+What this means for my fiction:
+
+- When opening a new project, I should test both personal energy and reader-facing clarity before drafting.
+- When a chapter feels flat, I should check whether it lacks pressure, change, or character-owned action rather than simply adding prettier prose.
+- When studying author interviews, I should extract mechanisms and exercises, not worship a persona or copy a surface voice.
