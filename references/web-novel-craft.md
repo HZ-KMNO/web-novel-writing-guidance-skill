@@ -641,6 +641,16 @@ Use `excellent-novel-case-methods.md` for the detailed case study. Practical con
 - From `正红旗下`: learn how fading social order appears through food, etiquette, naming, domestic routines, and small obligations; do not imitate old-period voice.
 - From `骆驼祥子`: learn concrete ordinary-person goals, urban cost pressure, repeated loss, and personality erosion; do not make suffering decorative.
 - From `大明王朝1566`: learn responsibility chains, procedural conflict, institution-level power chess, and dialogue as action; do not imitate historical court diction.
+- From `刘震云全集作品集典藏版`: learn everyday absurdity through errands, social chains, hearsay, process friction, face-saving, and oral self-defense; do not let colloquial prose become purposeless chatter.
+- From `额尔古纳河右岸`: learn how land, river, season, migration, ritual, and ethnic memory shape fate; do not turn place into scenic description only.
+- From `王小波作品大全集`: learn narrator judgment, irony, self-defense, and rational rebellion; do not imitate the strong personal voice as default web-novel prose.
+- From `呼兰河传`: learn town ecology, childhood viewpoint, neighborhood judgment, repeated routine, and soft cruelty; modernize the diction.
+- From `棋王`: learn obsession, inner order, scarcity, and a single craft/game as character spine; do not make eccentricity decorative.
+- From `鲁迅全集`: learn crowd pressure, spectator psychology, oppressive common sense, short-scene irony, and aftertaste endings; do not write early-modern essay diction.
+- From `恶意`: learn motive reversal, testimony versions, document-form misdirection, and narrator bias; do not imitate translationese.
+- From `水浒传`: learn single-character highlight recruitment, nickname memory, forced-outlaw structure, and ensemble convergence; do not imitate chapter-novel syntax.
+- From `一个叫欧维的男人决定去死`: learn unlikeable protagonist rules, wound reveal, neighbor intrusion, and warmth through repeated daily disruptions; do not imitate translationese.
+- From `金庸作品全集`: learn long-serial upgrades, identity hooks, sect/organization systems, rewards that change access, and emotion-duty dilemmas; do not imitate wuxia diction or specific adventures.
 
 ### 2026-06-06 Reading-Day Execution Checks
 
@@ -670,6 +680,23 @@ Before drafting:
 - For symbolic side stories, use one object/wish/rule/price instead of direct moral explanation.
 - Preserve modern Simplified Chinese readability; translation, old-period, court, or regional voices are mechanism sources, not default prose models.
 
+### 2026-06-09 Case Batch Execution Checks
+
+Use `excellent-novel-case-batch-2026-06-09.md` when planning modern social scenes, suspense motive reversals, long-serial upgrade structures, local-community scenes, eccentric specialists, or ensemble recruitment.
+
+Before drafting:
+
+- For modern social scenes, design an errand, message, procedure, face-saving move, or responsibility dodge that naturally escalates.
+- For dialogue, mark what each person is protecting: face, job, reputation, relationship, secret, convenience, or self-image.
+- For hearsay scenes, let each retelling add a small bias, fear, omission, or self-serving interpretation.
+- For place-based chapters, make geography, season, routine, local custom, and public judgment change what characters can do.
+- For obsession-driven characters, define the one rule, craft, game, belief, or appetite that gives them order under pressure.
+- For suspense chapters, separate fact truth, public motive, false motive, real motive, and narrator bias.
+- For document-style evidence, decide what the format makes readers trust and what it hides.
+- For ensemble stories, give every important recruit a pre-entry conflict, signature competence, and reason to join.
+- For upgrade chapters, each reward must change access: new map, new person, new institution, new debt, new danger, or new moral choice.
+- Preserve modern web-novel readability; early-modern, chapter-novel, wuxia, or translated voices are mechanism sources, not sentence templates.
+
 Future case-library ingestion:
 
 - Read the new local case files without modifying the source books.
@@ -677,7 +704,7 @@ Future case-library ingestion:
 - Mark reading status using `literary-deep-reading-workflow.md`.
 - Add writer-facing lessons to `excellent-novel-case-methods.md`.
 - For each imported book, classify the learning mode: modern Chinese expression, mechanism only, translated structure only, or classical/chapter-structured mechanism only.
-- For each daily batch, create or update a batch reference when the analysis is longer than a short method note; for example, `excellent-novel-case-batch-2026-06-07.md` or `excellent-novel-case-batch-2026-06-08.md`.
+- For each daily batch, create or update a batch reference when the analysis is longer than a short method note; for example, `excellent-novel-case-batch-2026-06-07.md`, `excellent-novel-case-batch-2026-06-08.md`, or `excellent-novel-case-batch-2026-06-09.md`.
 - If a work becomes a core sample, create or update a deep-reading dossier and record what still remains unread or unconverted.
 - If the user imports about 10 books per day, process them as a dated batch: inventory all, extract methods from all, select 1-3 most relevant books for deeper structural reading, then state how the batch changes or confirms the current novel direction.
 - Before any five-chapter writing batch, convert the latest case-library lessons into a direction note, five-chapter mini-outline, chapter task cards, and continuity constraints.
