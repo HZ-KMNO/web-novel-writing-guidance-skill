@@ -18,6 +18,7 @@ This reference summarizes reusable Chinese web novel craft rules. Use only the r
 12. Fanqie Tutorial Summary Library
 13. Qidian Tutorial Summary Library
 14. Character Autonomy and Excellent-Case Lessons
+15. Classic Chinese Prose Learning
 
 ## 1. Story Engine
 
@@ -758,3 +759,54 @@ Risk controls:
 - Do not apply platform advice mechanically to every platform.
 - Do not confuse high-energy examples with durable craft.
 - Do not let the opening become only a pitch; it still must read like a story.
+
+## 15. Classic Chinese Prose Learning
+
+This note integrates the usable part of 流浪的蛤蟆's advice from the Bilibili transcript and public writing-answer index: Chinese classics and high-level genre works can improve web-novel writing, but only if read with a craft target.
+
+Core rule:
+
+```text
+Learn mechanism, rhythm, scene handling, and dialogue force.
+Do not copy old diction, famous sentences, archaic costume, or a master's recognizable voice.
+```
+
+Use classics to train:
+
+- **Sentence rhythm**: how long and short clauses move, where the sentence lands, how a paragraph breathes.
+- **Scene compression**: how a few details imply status, pressure, weather, social relation, or danger.
+- **Dialogue taste**: how people reveal hierarchy, desire, resentment, wit, fear, or affection without explaining themselves.
+- **Character entrance**: how a person becomes memorable through action, object, reaction, and social gaze.
+- **Story-box variants**: how different works handle first encounter, apprenticeship, gaining power, revenge trigger, secret organization entry, rescue, betrayal, or public humiliation.
+
+Practical reading method:
+
+```text
+Pick one story box.
+Collect many versions from classics, modern Chinese fiction, and strong genre novels.
+For each version, record start, desire, obstacle, key detail, dialogue move, turn, payoff, and imitation risk.
+Write a short exercise using the mechanism in a new setting.
+Compare the result with the source to find the gap.
+```
+
+What this means for my fiction:
+
+- When my prose feels thin, I should not ask for "more beautiful wording." I should decide which craft layer is weak: rhythm, detail, dialogue, scene compression, or emotional turn.
+- When learning from `红楼梦`, `水浒传`, `西游记`, 鲁迅, 金庸, 古龙, or other strong Chinese-language works, I should name the exact mechanism being studied before reading.
+- For web novels, classic prose must be translated into modern readability. Keep clarity, momentum, and reader promise first.
+- A safe exercise is unpublished imitation or fanfic-style practice. The publishable draft must use a new setting, new characters, new event logic, and modern prose.
+
+Classic-learning checklist:
+
+```text
+source:
+target skill:
+story box:
+one useful mechanism:
+one useful rhythm/detail/dialogue move:
+how to modernize it:
+what not to copy:
+exercise result:
+gap discovered:
+next revision action:
+```

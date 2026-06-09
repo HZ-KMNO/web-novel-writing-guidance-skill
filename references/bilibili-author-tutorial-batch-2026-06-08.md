@@ -96,6 +96,33 @@ What this means for my fiction:
 - Each box should have a goal, an obstacle, a result, and a next target.
 - Good plotting is often the recombination of familiar boxes with new motivations and settings.
 
+### 8. Classic Chinese works are training material, not costumes
+
+The `1092606875-1-208.mp4_原文.docx` transcript also reinforces a useful reading method: learn from Chinese classics and high-level genre works with a specific target. The point is not to worship "classic prose" vaguely, but to collect how classic stories solve recurring story boxes such as first love, apprenticeship, gaining power, entering a group, meeting a mentor, or causing a later problem through an earlier choice.
+
+What this means for my fiction:
+
+- Read classics with a writing question, not with empty admiration. For example: how does this work introduce a mentor, turn a meeting into attachment, make dialogue reveal hierarchy, or make a small choice become later trouble?
+- Use Chinese classics to train sentence rhythm, scene compression, dialogue taste, and character entrance, but do not copy archaic diction, famous phrases, or the recognizable voice of a specific author.
+- A useful exercise is "same story box, many versions": collect 20-100 versions of apprenticeship, first encounter, gaining power, revenge trigger, public humiliation, secret organization entry, or rescue scene, then extract the mechanism.
+- Deliberate imitation should be low-risk practice, such as short fanfic-style exercises or rewritten scene mechanics, not publishable copying.
+- Use comparison to build self-knowledge. If an exercise exposes the gap between my prose and a master, that is useful feedback, not failure.
+
+Practical classic-reading card:
+
+```text
+source work:
+story box:
+what starts the box:
+what the character wants:
+what blocks them:
+what detail carries mood/status:
+what dialogue move reveals relationship:
+how the scene exits into the next problem:
+what I can reuse as mechanism:
+what I must not imitate directly:
+```
+
 ## Practical Writing Workflow
 
 When using this batch for a new chapter or new book:
@@ -127,6 +154,7 @@ When using this batch for a new chapter or new book:
 | Long arc feels loose | Nested goals and multi-point burst | Set open hook, midpoint burst, and final payoff |
 | Fan fiction feels derivative | Fresh cut-in point | Use the known world but not the original route |
 | Daily scenes feel watery | Contrast and reversal | Give every daily scene hidden intent or mismatch |
+| Prose feels thin or generic | Purposeful classic reading | Study sentence rhythm, dialogue, scene compression, and story-box variants without copying old diction |
 
 ## Summary For Writing
 
@@ -138,3 +166,4 @@ What this means for my fiction:
 - Use the middle to escalate through smaller wins and new pressure.
 - Use daily scenes to keep character friction alive.
 - Use familiar genre boxes as scaffolding, then make the story feel ownable through new motives and combinations.
+- Use Chinese classics and high-level genre works as targeted training: learn mechanism, rhythm, and scene handling, not surface costume.
