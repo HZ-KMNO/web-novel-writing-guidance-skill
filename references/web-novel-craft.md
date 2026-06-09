@@ -19,6 +19,7 @@ This reference summarizes reusable Chinese web novel craft rules. Use only the r
 13. Qidian Tutorial Summary Library
 14. Character Autonomy and Excellent-Case Lessons
 15. Classic Chinese Prose Learning
+16. Hama Zhihu Practical Advice
 
 ## 1. Story Engine
 
@@ -810,3 +811,24 @@ exercise result:
 gap discovered:
 next revision action:
 ```
+
+## 16. Hama Zhihu Practical Advice
+
+Read `references/hama-zhihu-writing-advice.md` when the user asks about 流浪的蛤蟆's writing views, how to learn from Chinese classics, how to improve web-novel results, or how to diagnose beginner problems.
+
+Compressed use:
+
+- Separate improving prose from improving platform performance.
+- Read classics for mechanism, rhythm, scene compression, dialogue, and story-box variants.
+- Read hot web novels for current reader promise, pacing, hooks, and market taste.
+- Build satisfaction through prior pressure, humiliation, desire, and compensation.
+- Write fights by making readers want the opponent defeated before choreographing moves.
+- Plan long novels in concrete target blocks, not vague ambition.
+- Do not endlessly revise at the same ability level; write forward, finish, then revise with new skill.
+- Find overlap between personal taste and reader demand.
+
+What this means for my fiction:
+
+- Before drafting, I should know whether I am solving a craft problem, a market-fit problem, or a completion-discipline problem.
+- When prose feels weak, I should choose a target skill and read examples for that target instead of asking for generic beautification.
+- When a story feels unsatisfying, check whether the pressure was strong enough to make the payoff matter.
