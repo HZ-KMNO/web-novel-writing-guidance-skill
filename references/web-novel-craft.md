@@ -712,7 +712,29 @@ Future case-library ingestion:
 
 ## Bilibili Author Tutorial Batch Use
 
-Use `references/bilibili-author-tutorial-batch-2026-06-08.md` when the user imports tutorial transcripts from B站 or other video-to-text sources.
+Use `references/bilibili-author-tutorial-batch-2026-06-09.md` and `references/bilibili-author-tutorial-batch-2026-06-08.md` when the user imports tutorial transcripts from B站 or other video-to-text sources.
+
+### 2026-06-09 System Craft Additions
+
+Use the 2026-06-09 batch when the chapter needs stronger planning discipline, opening design, idea expansion, or AI production control.
+
+Practical conclusions:
+
+- Plan at three scales: macro story, meso plot unit, and micro event. A weak chapter usually lacks one of these layers.
+- Build each plot unit through emotional incident, desire target, obstacle, method, action/climax/turn, and feedback.
+- Treat reader pull as desire substitution, emotional experience, and expectation. A scene should know which pull it is activating.
+- Openings are reader contracts. The first concrete detail should establish tone, pressure, viewpoint distance, and future question when possible.
+- A mediocre idea can become usable through protagonist, goal, obstacle, price, why-now, head/tail design, pressure branches, and callbacks.
+- AI long-form writing should run through project files, bounded context, draft, review, repair, and continuity update; one-shot generation is too fragile.
+- Qidian-facing openings should make title, synopsis, first 500 words, first 6000 words, crisis, advantage, and future route legible.
+
+What this means for my fiction:
+
+- Before drafting, I should name the chapter's macro promise, local plot-unit step, and micro reader experience.
+- When a scene feels boring, I should repair pressure, information, or emotion before polishing sentences.
+- When using AI, I should pass a focused context pack and task card, then review for continuity and reader effect before doing de-AI polishing.
+
+### 2026-06-08 Commercial Structure Additions
 
 Practical conclusions:
 
