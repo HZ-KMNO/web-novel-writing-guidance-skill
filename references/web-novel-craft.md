@@ -60,6 +60,27 @@ Keep the stages separate:
 - Draft B fixes user-directed content issues.
 - Draft C removes AI flavor and naturalizes prose after content is approved.
 
+### Six-Chapter Push Package
+
+The user usually writes in 6-chapter runs. When planning a new stage, escaping project stagnation, opening a new arc, or preparing batch drafting, use a 6-chapter push package by default.
+
+```text
+Chapter 1: break the balance
+Chapter 2: protagonist acts
+Chapter 3: first setback
+Chapter 4: situation expands
+Chapter 5: stage payoff / stage truth
+Chapter 6: irreversible turn
+```
+
+Operational use:
+
+- Chapters 1-4 build pressure through goal, obstacle, cost, and information gaps.
+- Chapter 5 gives a concrete reader reward: reversal, breakthrough, upgrade, rescue, qualification, key clue, or staged reckoning.
+- Chapter 6 opens the next pressure system: new crisis, identity, map, enemy, debt, rule, or goal.
+- Every chapter must change at least one of: position, relationship, information, resource, danger, identity, or reader question.
+- If a project is circling in place, do not start by rewriting the whole premise. First design the next 6-chapter package and name the irreversible event in Chapter 6.
+
 ## 3. Idea Expansion
 
 Do not wait for a perfect idea. Start from an ordinary idea and push it through contradictions.
@@ -709,7 +730,7 @@ Future case-library ingestion:
 - For each daily batch, create or update a batch reference when the analysis is longer than a short method note; for example, `excellent-novel-case-batch-2026-06-07.md`, `excellent-novel-case-batch-2026-06-08.md`, or `excellent-novel-case-batch-2026-06-09.md`.
 - If a work becomes a core sample, create or update a deep-reading dossier and record what still remains unread or unconverted.
 - If the user imports about 10 books per day, process them as a dated batch: inventory all, extract methods from all, select 1-3 most relevant books for deeper structural reading, then state how the batch changes or confirms the current novel direction.
-- Before any five-chapter writing batch, convert the latest case-library lessons into a direction note, five-chapter mini-outline, chapter task cards, and continuity constraints.
+- Before any six-chapter writing batch, convert the latest case-library lessons into a direction note, six-chapter push package, chapter task cards, and continuity constraints.
 - Do not imitate plots, character shells, or signature sentences; extract mechanisms that can become chapter checks, scene patterns, or exercises.
 
 ## Bilibili Author Tutorial Batch Use
