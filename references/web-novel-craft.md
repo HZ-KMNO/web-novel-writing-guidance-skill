@@ -852,3 +852,25 @@ What this means for my fiction:
 - When opening a new project, I should test both personal energy and reader-facing clarity before drafting.
 - When a chapter feels flat, I should check whether it lacks pressure, change, or character-owned action rather than simply adding prettier prose.
 - When studying author interviews, I should extract mechanisms and exercises, not worship a persona or copy a surface voice.
+
+## 18. Traditional And Popular Narrative Batch 2026-06-10
+
+Read `references/excellent-novel-case-batch-2026-06-10.md` when the user wants to learn from traditional Chinese fiction, martial-arts/popular fiction, folklore cases, adventure classics, or author-recommended classic story materials.
+
+Compressed use:
+
+- Use `古龙作品全集` for character entrances, rumor-before-person, compressed dialogue, atmosphere, and relationship pressure.
+- Use `三言二拍` for small-desire story boxes, misunderstanding escalation, gossip chains, and social pressure.
+- Use `封神演义` for faction war, artifact logic, destiny lists, mentor lines, and long-form group absorption.
+- Use `济公全传` for wandering helper, folk justice, single-unit rescue, and public moral payoff.
+- Use 凡尔纳 for route-based adventure and knowledge wonder; use 大仲马 for long revenge and staged payoff; use 马克·吐温 for satire and oral self-defense.
+
+What this means for my fiction:
+
+- When I lack plot, choose a traditional story box and modernize its desire, obstacle, setting, and cost.
+- When I lack vivid characters, introduce them through rumor, reaction, taboo, old debt, object, or a pressure-bearing action.
+- When I lack long-form structure, create a list, map, route, faction war, or staged revenge plan that can absorb new characters without scattering the story.
+
+Guardrail:
+
+Do not copy archaic diction, chapter-novel syntax, translationese, mythic shells, famous tricks, or a signature author voice. Learn mechanism, then rewrite in modern readable web-novel prose.
