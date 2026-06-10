@@ -233,3 +233,7 @@ next project improvement:
 - Do not copy classic diction or fanfic shells into publishable drafts.
 - Do not treat market advice as an excuse to write soulless formula.
 - Do not claim every link was deeply analyzed at the same depth; use the inventory status when needed.
+
+## Follow-Up Reference
+
+For the expanded reading plan built from his classic/story-material recommendations, read `references/hama-classic-reading-list-2026-06-10.md`. Use it when the task is to extract writing exercises and mechanisms from 红楼梦、水浒传、三国演义、西游记、封神演义、三言二拍、聊斋、金庸、古龙、鲁迅、凡尔纳、马克·吐温、大仲马, or related pending-source authors such as 还珠楼主、梁羽生、温瑞安、黄易.

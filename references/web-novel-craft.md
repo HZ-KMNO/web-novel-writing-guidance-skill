@@ -874,3 +874,19 @@ What this means for my fiction:
 Guardrail:
 
 Do not copy archaic diction, chapter-novel syntax, translationese, mythic shells, famous tricks, or a signature author voice. Learn mechanism, then rewrite in modern readable web-novel prose.
+
+## 19. Hama Classic Reading List
+
+Read `references/hama-classic-reading-list-2026-06-10.md` when the user asks to精读 or systematically study the classic/traditional works recommended by 流浪的蛤蟆.
+
+Compressed use:
+
+- Read classics with one target at a time: character entrance, story box, fight setup, group cast, dialogue, prose force, long structure, route adventure, satire, or payoff.
+- Convert each source into a card: who wants what, what blocks them, what detail makes it memorable, what turn changes the scene, how to modernize, and what not to copy.
+- Use 红楼梦 for relationship webs and object foreshadowing; 水浒传 for recruitment highlights; 三国演义 for faction strategy; 西游记 for unit adventure; 封神演义 for list/faction/artifact engines; 三言二拍/聊斋/济公 for unit cases; 金庸/古龙 for modern genre force; 凡尔纳/大仲马/马克·吐温 for route adventure, revenge, and satire.
+
+What this means for my fiction:
+
+- The reading list is not a prestige shelf. Each book must become a practice task.
+- Missing local sources such as 还珠楼主、梁羽生、温瑞安、黄易 should be marked pending instead of fabricated.
+- Publishable web-novel prose must stay modern, clear, and smooth even when the mechanism comes from a classic.
