@@ -761,7 +761,28 @@ Future case-library ingestion:
 
 ## Bilibili Author Tutorial Batch Use
 
-Use `references/bilibili-author-tutorial-batch-2026-06-09.md` and `references/bilibili-author-tutorial-batch-2026-06-08.md` when the user imports tutorial transcripts from B站 or other video-to-text sources.
+Use `references/bilibili-author-tutorial-batch-2026-06-13.md`, `references/bilibili-author-tutorial-batch-2026-06-09.md`, and `references/bilibili-author-tutorial-batch-2026-06-08.md` when the user imports tutorial transcripts from B站 or other video-to-text sources.
+
+### 2026-06-13 Practical Craft Additions
+
+Use the 2026-06-13 batch when the chapter needs stronger opening retention, protagonist appeal, outline usefulness, sensory grounding, pain-point design, combat readability, supernatural chase logic, or Chinese de-AI polishing.
+
+Practical conclusions:
+
+- Treat an outline as story planning, not a chapter-number form. A useful outline states the protagonist appeal, phase pressure, first major enemy, payoff timing, upgrade/flip points, and long-term reader expectation.
+- The first 2000-3000 words should make the protagonist, active event, consequence, and small hook visible. Do not spend the opening on family trees, setting dictionaries, class rosters, or system manuals.
+- Make readers like the protagonist through behavior under choices, a solvable pressure problem, or a familiar identity with believable life details.
+- Sensory description should select 1-3 POV-relevant anchors. Use smell, temperature, sound, touch, and bodily reaction to carry fear, pain, intimacy, disgust, or wonder; do not stack all five senses as decoration.
+- Pain and BE effects come from missed timing, moral dilemma, sweetness-before-loss, unspoken desire, and consequences that change relationships. Death alone is not automatically the strongest knife.
+- Combat must preserve the attack-response-result chain. For supernatural, mystery, or ghost stories, prefer rules, pursuit, forbidden acts, tools, environment pressure, and weakness-solving over endless hard clashes.
+- De-AI polishing must catch quote abuse, strange compound terms, foreign-coded collocations, over-metaphor, missing causal links, and phrases that do not sound like modern Chinese daily speech.
+
+What this means for my fiction:
+
+- Before drafting a new book or new arc, test the opening with the "protagonist-event-consequence-hook" gate.
+- Before drafting a fight or ghost encounter, write the rule, visible pressure, environment proof, and escape/crack method.
+- Before Draft C, read dialogue aloud in normal Chinese. Do not delete useful particles or oral supports just to make prose "clean."
+- Do not stay in planning forever. After each planning layer, ask which three chapters can prove the promise to readers.
 
 ### 2026-06-09 System Craft Additions
 
