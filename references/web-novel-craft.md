@@ -277,6 +277,22 @@ Story prose must stay inside the story world. Do not mention chapter numbers, ou
 
 Convert continuity reminders into diegetic signals: a character finds an old object, sees a changed record, hears someone mention an event, reacts to a prior consequence, or notices a scene detail that carries the memory forward. If this leak appears in a draft, treat it as both a prose failure and a workflow failure before writing new content.
 
+Practical conversion patterns:
+
+- Replace "上一章他拿到笔记本" with an in-world object beat: he touches the old notebook, notices its cover, or opens to the marked page.
+- Replace "根据前文，某人已经怀疑他" with behavior: the person stops answering, checks a record, changes tone, or asks a more specific question.
+- Replace "这里承接医院事件" with consequence: a wristband, bill, message, injury, missing person, rumor, official record, or altered relationship enters the scene.
+- Replace "本章要展示代价" with a cost that changes what someone can do next.
+
+Final prose scan:
+
+- chapter terms: "上一章", "本章", "第X章", "前几章"
+- workflow terms: "章纲", "任务卡", "自检", "草稿", "A稿", "B稿", "C稿", "伏笔安排"
+- author-instruction terms: "这里要", "这里需要", "接下来要", "读者会", "可以看出", "用于说明", "这一段的作用"
+- recap terms: "前文已经", "根据前文", "之前讲过", "前面提到"
+
+These terms may appear in planning notes, but if they appear in story prose, verify they are literal in-world text. Otherwise rewrite the sentence.
+
 ## 9. Continuity Records
 
 After finalizing a chapter, record:
@@ -344,6 +360,7 @@ Prose checklist:
 - every short sentence is understandable without guessing omitted context
 - no orphan one-word, one-character, or label-only paragraphs remain
 - no pseudo-classical, early vernacular, or translationese wording breaks the book's voice
+- no meta chapter language, planning language, or AI workflow language has leaked into story prose
 
 AI draft checklist:
 
