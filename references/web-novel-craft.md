@@ -196,6 +196,7 @@ Quality gate:
 - ends with a hook or handoff
 - uses natural modern Simplified Chinese
 - avoids cryptic over-short sentences, orphan words, pseudo-classical phrasing, and translationese
+- keeps all outline, task-card, AI self-check, chapter-number, and reader-instruction language out of story prose
 
 ### Draft B
 
@@ -209,6 +210,7 @@ Quality gate:
 - no new contradictions are introduced
 - language risks from Draft A are explicitly fixed rather than carried forward
 - unnatural wording is traced as Draft A original, Draft B introduced, Draft C introduced, or multi-draft residue
+- leaked meta/chapter-management language is converted into in-world action, dialogue, objects, records, memory, evidence, or consequences
 
 ### Draft C
 
@@ -223,6 +225,7 @@ Quality gate:
 - paragraph rhythm feels less mechanical
 - prose remains clear, fluent, and readable as modern web-novel Chinese
 - de-AI polishing must not create cryptic fragments, pseudo-classical tone, or imitation of translated fiction
+- final prose contains no phrases like "上一章", "本章", "第几章讲了", "根据前文", "这里承接", or "此处埋下伏笔"
 
 ## 8. De-AI Polishing
 
@@ -267,6 +270,12 @@ For Chinese web-novel prose, clarity comes before style.
 - Literary restraint means saying enough with concrete action, not making the sentence hard to parse.
 - When a sentence sounds like it was translated from another language, rewrite it in natural Simplified Chinese with normal word order.
 - If a language problem appears in Draft A, the Draft A gate failed; if it survives Draft B, the risk-resolution gate failed; if Draft C creates it, the de-AI gate failed.
+
+### No Meta Chapter Language In Prose
+
+Story prose must stay inside the story world. Do not mention chapter numbers, outline intent, task-card wording, AI workflow, reader-facing explanation, or revision logic inside the chapter text. Phrases such as "在第21章讲了", "上一章提到", "本章要写", "根据前文", "这里需要承接", and "此处埋下伏笔" belong in planning notes only.
+
+Convert continuity reminders into diegetic signals: a character finds an old object, sees a changed record, hears someone mention an event, reacts to a prior consequence, or notices a scene detail that carries the memory forward. If this leak appears in a draft, treat it as both a prose failure and a workflow failure before writing new content.
 
 ## 9. Continuity Records
 
